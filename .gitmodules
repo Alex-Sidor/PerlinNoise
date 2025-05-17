@@ -1,0 +1,3 @@
+[submodule "deps/SDL3"]
+	path = deps/SDL3
+	url = https://github.com/AlexSid0/SDL.git
