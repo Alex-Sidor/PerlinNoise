@@ -130,7 +130,7 @@ SDL_AppResult SDL_AppIterate(void* appstate)
 {
     auto start = std::chrono::high_resolution_clock::now();
     SDL_memset4(pixelBuffer, 0x000000FF, amountOfPixels);
-    a += 0.01;
+    a += 0.1;
     perlin();
 
     SDL_UpdateTexture(texture, NULL, pixelBuffer,WINDOW_WIDTH*sizeof(Uint32));

@@ -1,18 +1,13 @@
-FastEngine is lightweight CPU-based renderer that does the rendering without any additional tools then uses SDL3 to display the final rendered frame.
+This project uses the PerlinNoise algorithm developed by **Ken Perlin** to generate a 2d noise texture that is smooth unline random noise
 
-Build Instructions:
+here is some more information about the algorithm [**Wikipedia**](https://en.wikipedia.org/wiki/Perlin_noise)
+
+**Build Instructions:**
 
 ```git clone --recursive https://github.com/AlexSid0/PerlinNoise.git```
 
 * If this was not done previously use ```git submodule update --init```
 
-cd PerlinNoise
+use the CMakeLists.txt to configure and compile the program
 
-For Visual Studio:
-```cmake -B build -S .```
-```cmake --build build```
-
-For Make files:
-```cmake -B build -S . -G "MinGW Makefiles"```
-```cmake --build build```
-```.\build\PerlinNoise.exe```
+<img src="images/image.png" alt="noise image" width="400"/>
