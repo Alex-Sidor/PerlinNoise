@@ -4,7 +4,7 @@ here is some more information about the algorithm [**Wikipedia**](https://en.wik
 
 **Build Instructions:**
 
-```git clone --recursive https://github.com/AlexSid0/PerlinNoise.git```
+```git clone --recursive https://github.com/Alex-Sidor/PerlinNoise.git```
 
 * If this was not done previously use ```git submodule update --init```
 
