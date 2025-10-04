@@ -1,3 +1,6 @@
 [submodule "deps/SDL3"]
 	path = deps/SDL3
 	url = https://github.com/libsdl-org/SDL.git
+[submodule "deps/RenderSurface"]
+	path = deps/RenderSurface
+	url = git@github.com:Alex-Sidor/RenderSurface.git
